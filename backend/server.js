@@ -19,7 +19,7 @@ const io = new Server(server, {
     cors: {
         origin: [
             "http://localhost:3000",
-            "https://your-frontend.vercel.app"
+            "https://real-time-coaching-feed-three.vercel.app"
         ],
         methods: ["GET", "POST"],
     },
